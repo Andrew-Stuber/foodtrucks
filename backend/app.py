@@ -54,7 +54,7 @@ def test_es():
     resp = {}
     try:
         msg = es.cat.indices()
-        resp["msg"] = msg
+        resmsg"] = msg
         resp["status"] = "success"
     except:
         resp["status"] = "failure"
